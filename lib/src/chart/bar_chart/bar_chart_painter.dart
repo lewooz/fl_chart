@@ -59,7 +59,11 @@ class BarChartPainter extends AxisChartPainter<BarChartData> {
     _groupBarsPosition = calculateGroupAndBarsPosition(
         canvasWrapper.size, groupsX, data.barGroups);
 
+
+
     drawBars(canvasWrapper, _groupBarsPosition!, holder);
+
+    
 
     for (var i = 0; i < targetData.barGroups.length; i++) {
       final barGroup = targetData.barGroups[i];
